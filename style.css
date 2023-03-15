@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Copperplate Gothic Light;
+  
+  }
+     
+  * {
+  box-sizing: border-box;
+  }
+  
+  .mini-navbar {
+    width: 100%;
+    text-align: center;
+    background-color: #888888;
+    padding: 5px;
+    font-family: Copperplate Gothic Light;
+   
+  }
+  
+        .banner-image img {
+          width: 100%;
+          height: 600px;        
+           
+  
+         }
+  .main-container {
+    position: relative;
+    
+    font-family: Copperplate Gothic Light;
+    
+  }
+  
+  
+  .centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-weight: bold;
+    
+    
+  }
+  
+  .banner-image-para {
+    letter-spacing: 2px;
+    background-color: blue;
+    opacity: 75%;
+   
+  }
+         
+  .services-box {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  
+        /*  .services {
+              margin-top: 16px;
+              margin-bottom: 16px;
+              text-align: center;
+              font-size: 40px;
+          }
+  
+          .services-para{
+              margin-left: 35px;
+              margin-right: 35px;
+              line-height: 1.5;
+          }*/
+  
+          
+          .fcontainer {
+                 
+                 
+                 height: auto;
+                 display: flex;
+                justify-content: center; 
+              flex-wrap: wrap; 
+             
+              
+              }
+  
+              .fitem {
+                       border-radius: 50%;
+                       
+                        box-shadow: 5px 10px #888888;
+                        margin: 12px;
+                        width: 150px;
+                        height: 150px; 
+                        margin-bottom: 10%;
+                        margin-right: 5%;
+  
+                       
+              }
+  
+ 
+               .image-icon img {
+                border: 1px solid black;
+                padding: 15px;
+                border-radius: 50% 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+               }
+  /*
+               .image-icon:hover img::before {
+                box-shadow: 5px 10px #888888;
+                border-radius: 50%;
+                font-variant: small-caps;
+               }
+  */
+  
+  
+  .caption {
+    
+    font-size: 15px;
+    padding-top: 10%;
+    text-align: center;
+     
+    
+  }
+  
+  .zero {
+    margin-top: 10%;
+  }
+  
+  
+
+#services {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.502),rgba(51, 51, 51, 0.7)), url(images/bride-groom.jpg);
+	  margin-top: 8%;
+    
+    background-size: cover;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 120px;
+     
+}
+/*
+#services h1 {
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+
+#services h1:after {
+    content: '';
+    background: #efefef;
+	 display: block;
+	 height: 3px;
+	 width: 500px;
+     margin: 10px auto 5px;
+	
+	
+}
+
+/*
+
+.services-b  {
+    position: absolue;
+    width 500px;
+    height: 500px;
+}
+
+*/
